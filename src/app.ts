@@ -1,10 +1,11 @@
-function log(message: string) {
-  console.log(message);
-}
+import { Bot } from "grammy";
+import { config } from "dotenv";
+config();
 
-function sayHello(name: string) {
-  console.log("Hello " + name + "!");
-}
+const bot = new Bot(process.env.TELEGRAM_BOT_TOKEN);
 
-log("hello Node + Typescript");
-sayHello("Rajibul");
+bot.command("start", async (ctx) => {
+  await ctx.reply("Hey");
+});
+
+bot.start();

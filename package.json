@@ -17,7 +17,8 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "grammy": "^1.35.1"
   },
   "devDependencies": {
     "@types/node": "^22.13.14",
