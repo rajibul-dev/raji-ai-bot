@@ -2,3 +2,4 @@
 .env
 todo.txt
 /dist
+/src/chat-exports
