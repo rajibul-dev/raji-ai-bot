@@ -1,5 +1,4 @@
 /node_modules
 .env
-todo.txt
 /dist
 /src/chat-exports
