@@ -5,3 +5,8 @@ The steps I imagine it'd take to complete this bot:
 
 [x] Trying out manual exports if we really want to train our AI with all the older messages.
 [x] formatting the exported JSON data for making it simple to work with.
+
+[] observe with the bot and gather message data
+[] format it so it matches my exported schema
+
+[] create database, get running with it!
