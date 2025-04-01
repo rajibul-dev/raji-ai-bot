@@ -6,7 +6,12 @@ The steps I imagine it'd take to complete this bot:
 [x] Trying out manual exports if we really want to train our AI with all the older messages.
 [x] formatting the exported JSON data for making it simple to work with.
 
+[x] create database, get running with it!
+[] create typescript models so I save myself pain in the long-run
+[] get a keyword extractor
+
 [] observe with the bot and gather message data
 [] format it so it matches my exported schema
 
-[] create database, get running with it!
+[] make the context aware logic
+[] have it send the GPT generated response in chat
