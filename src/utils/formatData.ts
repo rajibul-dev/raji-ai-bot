@@ -31,7 +31,7 @@ export function formatChatExportedData(exportedFilePath: string) {
 
     return {
       from: messageObject.from,
-      from_id: messageObject.from_id?.slice(4) || "unknown",
+      from_id: messageObject.from_id?.slice(4) || "unknown", // slicing 'user' part
       message: formatMessageText(messageObject.text),
       replied_to_message: modifyMessageObject(
         findMessageFromID(messageObject.reply_to_message_id, data.messages)
